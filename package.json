@@ -1,0 +1,28 @@
+{
+  "name": "my_custom_gulp_setup",
+  "author": "Kevin Pfeifer",
+  "license": "WTFPL",
+  "version": "2.0.0",
+  "description": "Generate minified CSS and JS from MaterializeCSS and own source files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-if": "^3.0.0",
+    "gulp-load-plugins": "^2.0.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
